@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Big Shoulders Inline", sans-serif;
+  color: var(--font_color);
+  text-align: center;
+}
+:root {
+  --main_color: #e07a5f;
+  --font_color: #f8f3d9;
+  --alternative_color: rgba(158, 168, 9, 0.45);
+  --animation_color: #a31d1d;
+}
+
+body {
+  background-color: var(--main_color);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+hr {
+  visibility: hidden;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  display: inline-block;
+  width: 1240px;
+  border-radius: 20px;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--main_color);
+}
+
+.navigation__list__item {
+  display: inline-block;
+  flex-wrap: nowrap;
+  background-color: var(--alternative_color);
+  width: 100%;
+  padding: 16px;
+}
+
+.navigation__list__item__text {
+  font-size: 25px;
+}
+
+.navigation__list__item__text:hover {
+  color: var(--animation_color);
+  transition: 2s;
+}
+
+.img__slider {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.members {
+    margin: 0 auto;
+}
+
+.members__pic__1 {
+  background-image: url("../assets/img/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+}
+
+.members__pic__2 {
+  background-image: url("../assets/img/2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+}
+
+.members__pic__3 {
+  background-image: url("../assets/img/3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+}
+
+.members__pic__4 {
+  background-image: url("../assets/img/4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+}
+
+.bio__content__pic {
+  height: 500px;
+}
+
+.discography {
+  display: flex;
+  flex-direction: column;
+}
+
+.discography__item {
+  display: flex;
+  flex-basis: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.discography__item__description {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  background-color: var(--alternative_color);
+  text-align: center;
+}
+
+.discography__item > .discography__item__pic__0 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/0.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__1 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__2 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__3 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__4 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__5 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/5.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__6 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discography__item > .discography__item__pic__7 {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../assets/img/discography/7.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.events__banner {
+  display: inline-block;
+  width: 960px;
+  height: 320px;
+  background-image: url("../assets/img/events/banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.event__item {
+  display: inline-block;
+  width: 960px;
+  height: 320px;
+  background-image: url("../assets/img/events/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.event__item__gettickets {
+  display: inline-block;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.event__item__gettickets:hover {
+  color: var(--animation_color);
+  transition: 2s;
+}
